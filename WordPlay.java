@@ -28,7 +28,7 @@ public class WordPlay {
         }
         return false;
     }
-    // Test case for method isVowel.
+    // Test case for the class method isVowel.
     public void testIsVowel(char testChar){
         boolean output = isVowel(testChar);
         System.out.println(output);
