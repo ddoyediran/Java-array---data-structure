@@ -15,7 +15,7 @@ import org.apache.commons.csv.*;
 public class WordPlay {
     /**
     * isVowel: accept a single parameter "character"
-    * return true if the character argument is a vowel and false if it is a consonant
+    * return true if the character argument is a vowel and false if it is a consonant regardless of the character case "Uppercase or lowercase"
     */
     public boolean isVowel(char ch){
         String vowel = "aeiou";
